@@ -33,9 +33,10 @@ an eco system
    - the dockerfile project http://dockerfile.github.io/
 
 
-  1. `docker pull ubuntu:14.04`
-  2. `docker pull ubuntu:latest`
-  3. `docker run ubuntu:latest echo "dockerized!"`
+
+ 1. `docker pull ubuntu:14.04`
+ 2. `docker pull ubuntu:latest`
+ 3. `docker run ubuntu:latest echo "dockerized!"`
 
 
 ## `docker build`
