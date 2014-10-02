@@ -10,7 +10,7 @@
 
 ##  what is it
 
-  containers + a great api
+containers + a great api
 
  - started by Solomon Hykes dotCloud ~2011
  - like a vm, but not a vm
@@ -21,7 +21,8 @@
  - built from Dockerfiles
  - results in a group of portable layers
 
- an eco system
+
+an eco system
 
  - [public registry at https://registry.hub.docker.com/](https://registry.hub.docker.com/)
  
@@ -32,18 +33,18 @@
    - the dockerfile project http://dockerfile.github.io/
 
 
-`docker pull ubuntu:14.04`
-`docker pull ubuntu:latest`
-`docker run ubuntu:latest echo "dockerized!"`
+  1. `docker pull ubuntu:14.04`
+  2. `docker pull ubuntu:latest`
+  3. `docker run ubuntu:latest echo "dockerized!"`
 
 
 ## `docker build`
 
 just a little taste of build today, to understand some things about pull and run
 
-`cd bovine`
-`cat Dockerfile`
-`./build_docker.sh`
+  1. `cd bovine`
+  2. `cat Dockerfile`
+  3. `./build_docker.sh`
 
 ## `docker run`
 
@@ -61,7 +62,8 @@ just a little taste of build today, to understand some things about pull and run
 ### nginx
 
 https://registry.hub.docker.com/u/dockerfile/nginx/
-http://localhost:8080/
+
+[http://localhost:8080/](http://localhost:8080/)
 
  1. `cd ../nginx`
  2. `docker ps -a`
