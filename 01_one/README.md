@@ -82,3 +82,9 @@ Highly suggested - Docker Online Tutorial
 https://www.docker.com/tryit
 
 
+
+### Docker Exploration 01
+
+Benjamin Foote  
+bfoote@meedan.net  
+October 2014
