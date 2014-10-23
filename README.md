@@ -23,3 +23,11 @@ October 2014
    - Dockerfile
    - q&a
    - next steps
+
+## 03
+
+   - docker networking
+   - docker registry
+   - our images
+   - q&a
+   - next steps
