@@ -19,21 +19,21 @@
     - ip
       1. `--name` and `--link`   
       2. `--host`   
-      2. `--dns`   
+      3. `--dns`   
 
 ##  docker registry
 
-    2. http://registry-ui.dev.meedan.net  
+    1. http://registry-ui.dev.meedan.net  
     2. https://dreg.meedan.net   
-    1. `docker login dreg.meedan.net`   
-    1. install the ca cert   
-    1. `docker login -u meedan dreg.meedan.net`   
-    3. `curl -u meedan https://dreg.meedan.net/v1/search?q=storm`   
-    1. set env var `export DOCKERREGISTRY=dreg.meedan.net`   
-    1. `cd bovine`
+    3. `docker login dreg.meedan.net`   
+    4. install the ca cert   
+    5. `docker login -u meedan dreg.meedan.net`   
+    6. `curl -u meedan https://dreg.meedan.net/v1/search?q=storm`   
+    7. set env var `export DOCKERREGISTRY=dreg.meedan.net`   
+    8. `cd bovine`
        - edit Dockerfile
        - build
-    4. docker tag $IMAGE $DOCKERREGISTRY/$IMAGE   
+    9. docker tag $IMAGE $DOCKERREGISTRY/$IMAGE   
 
 ##  our images
 
@@ -52,9 +52,9 @@
 
 ## next steps
 
-   1. `docker exec`
-   1. looking at istanbul together
-   2. talking about development workflows
+   - `docker exec`
+   - looking at istanbul together
+   - talking about development workflows
 
 ### Docker Exploration 03
 
