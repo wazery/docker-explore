@@ -1,0 +1,5 @@
+IMAGE=""
+HOST=""
+NAME=""
+# usually gets used in set_hipache.sh
+PORT=""
