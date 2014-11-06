@@ -1,0 +1,9 @@
+IMAGE="${USER}/bovine"
+HOST="mooo"
+NAME="bovine"
+# usually gets used in set_hipache.sh
+# used in set_hipache.sh
+DOMAINS=(
+        "${NAME}.${WILDCARDDOMAIN}"
+)
+PORT=""

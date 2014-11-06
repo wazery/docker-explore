@@ -1,0 +1,9 @@
+IMAGE="${DOCKERREGISTRY}/"
+HOST=""
+NAME=""
+# usually gets used in set_hipache.sh
+# used in set_hipache.sh
+DOMAINS=(
+        "${NAME}.${WILDCARDDOMAIN}"
+)
+PORT=""

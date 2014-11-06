@@ -1,0 +1,3 @@
+IMAGE="busybox"
+HOST="rangle"
+NAME="rangler"

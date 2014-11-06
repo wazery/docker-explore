@@ -34,6 +34,18 @@ October 2014
 
 ## 04
 
-   - running containers on istanbul
+   - docker exec
+   - development workflows
+   - practicum
+   - q&a
+   - next steps
+
+## 05
+
+   - VOLUME and --volumes-from
+   - docker api access && docker inspect
+   - q&a
+   - next steps
+
 
 
