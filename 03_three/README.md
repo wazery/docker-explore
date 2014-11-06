@@ -37,13 +37,16 @@
 
 ##  our images
 
-    - verne   
+    verne  
+
 	- https://github.com/meedan/translatedesk-storm/tree/docker-db   
     	- https://github.com/meedan/translatedesk-storm/tree/docker-storm   
     	- https://github.com/meedan/translatedesk-api/tree/docker   
-    - meedan
+    
+    meedan
+    
         - https://github.com/meedan/dockerfiles   
-	- base  https://github.com/meedan/dockerfiles/tree/master/base   
+	- base https://github.com/meedan/dockerfiles/tree/master/base   
     	- _skel https://github.com/meedan/dockerfiles/tree/master/_skel   
 	- php-myadmin https://github.com/meedan/dockerfiles/tree/master/php-myadmin   
     
