@@ -10,7 +10,6 @@ cd "$( dirname "${BASH_SOURCE[0]}" )"
 
 CMD="docker run
        --rm -i -t 
-       --volumes-from rangler
        -h ${HOST} 
        --name ${NAME} 
         ${IMAGE} $1 ${@:2}";
