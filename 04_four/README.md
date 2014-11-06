@@ -55,7 +55,7 @@
     
 ## q&a
 
-## next step
+## next steps
 
    - `docker save` && `docker load`
    - `VOLUME` and `--volumes-from`
