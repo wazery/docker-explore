@@ -13,11 +13,12 @@ function usage() {
 
     cat <<EOF
 
-
+        docker run image print
+              displays contents of $OUTFILE
 
         docker run image ANIMAL 'put something here'
 
-        makes the ANIMAL say something and save what you said to a file locally
+              makes the ANIMAL say something and save to $OUTFILE
 
         where ANIMAL is....
 
